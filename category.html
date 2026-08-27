@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Домашняя работа 21_2</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!--Здесь начинается левая колонка.-->
+    <div class="row">
+      <div class="col-2 bg-dark" style="position: relative; height: 97vh;"> <!--Здесь Устанавливаем высоту колонки-->
+        <div class="row text-white" style="position: relative; height: 10vh; padding-left: 25px; padding-top: 25px;">
+          <div class="col-12 d-flex align-items-center">
+            <i class="bi bi-bootstrap-fill me-2" style="font-size: 30px;"></i> <!--Установил картинку и увеличил отступ между иконкой и текстом.-->
+            <h3>Меню</h3>
+          </div>
+
+        </div>
+      <!--Прописываем левые кнопки-->
+        <div class="row" style="margin-top: -40px;">
+          <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+
+              <i class="bi bi-bootstrap-fill me-2" style="font-size: 30px;"></i>
+              <button type="button" class="btn btn-primary text-start">
+                <i class="bi bi-house-door-fill me-1" style="font-size: 15px;"></i>
+                Главная
+              </button>
+              <button type="button" class="btn btn-dark text-start">
+                <i class="bi bi-speedometer2 me-1" style="font-size: 15px;"></i>
+                Категории
+              </button>
+              <button type="button" class="btn btn-dark text-start">
+                <i class="bi bi-table me-1" style="font-size: 15px;"></i>
+                Заказы
+              </button>
+              <button type="button" class="btn btn-dark text-start">
+                <i class="bi bi-person-circle me-1" style="font-size: 15px;"></i>
+                Контакты
+              </button>
+          </div>
+        </div>
+          <!--Здесь маленькая кнопка пользователя, которая выдвигается.-->
+          <div class="row" style="position: absolute; bottom: 0; left: 0; right: 0;">
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-dark text-start" style="padding-left: 25px; padding-bottom: 15px;"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                Пользователь
+              </button>
+              <ul class="dropdown-menu bg-dark-subtle">
+                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                <li><a class="dropdown-item" href="#">Выход</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Здесь маленькая кнопка пользователя, которая выдвигается, заканчивается.-->
+    </div> <!--Здесь заканчивается левая колонка.-->
+
+
+
+
+
+
+
+      <!--Начало правой колонки-->
+    <div class="col-10">
+      <div class="row" style="margin-top: 90px;"> <!--Делаем ручной отступ-->
+        <div class="d-flex justify-content-center"> <!--Ставим колонку по центру.-->
+          <h1>
+            Категория 1
+          </h1>
+        </div> <!--Конец центральной колонки.-->
+      </div><!--Конец строки "Главная"-->
+
+        <!--Начинается строка товаров-->
+        <div class="row" style="margin-top: 30px; margin-left: 75px;">
+
+            <!--Первая колонка-->
+            <div class="col-4">
+                <div class="card text-bg-light mb-3" style="max-width: 18rem; margin-left: 30px;">
+                  <div class="card-header"><h4 style="margin-left: 80px;">Товар 1</h4></div>
+                  <div class="card-body">
+                    <h2 class="card-title" style="margin-left: 80px;">$ 100</h2>
+                    <p class="card-text">10 users included, 2 GB of storage, Email support, Help  center access</p>
+                    <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                  </div>
+                </div>
+            </div>
+
+            <!--Вторая колонка-->
+            <div class="col-4">
+              <div class="card text-bg-light mb-3" style="max-width: 18rem; margin-left: -30px;">
+                <div class="card-header"><h4 style="margin-left: 80px;">Товар 1</h4></div>
+                <div class="card-body">
+                  <h2 class="card-title" style="margin-left: 80px;">$ 100</h2>
+                  <p class="card-text">10 users included, 2 GB of storage, Email support, Help  center access</p>
+                  <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                </div>
+              </div>
+             </div>
+
+            <!--Третья колонка-->
+            <div class="col-4">
+              <div class="card text-bg-light mb-3" style="max-width: 18rem; margin-left: -90px;">
+                <div class="card-header"><h4 style="margin-left: 80px;">Товар 1</h4></div>
+                <div class="card-body">
+                  <h2 class="card-title" style="margin-left: 80px;">$ 100</h2>
+                  <p class="card-text">10 users included, 2 GB of storage, Email support, Help  center access</p>
+                  <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                </div>
+              </div>
+            </div>
+        </div> <!--Строка колонок-->
+
+        <!--Начинается строка товаров-->
+        <div class="row" style="margin-top: 30px; margin-left: 75px;">
+
+            <!--Первая колонка-->
+            <div class="col-4">
+                <div class="card text-bg-light mb-3" style="max-width: 18rem; margin-left: 30px;">
+                  <div class="card-header"><h4 style="margin-left: 80px;">Товар 1</h4></div>
+                  <div class="card-body">
+                    <h2 class="card-title" style="margin-left: 80px;">$ 100</h2>
+                    <p class="card-text">10 users included, 2 GB of storage, Email support, Help  center access</p>
+                    <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                  </div>
+                </div>
+            </div>
+
+            <!--Вторая колонка-->
+            <div class="col-4">
+              <div class="card text-bg-light mb-3" style="max-width: 18rem; margin-left: -30px;">
+                <div class="card-header"><h4 style="margin-left: 80px;">Товар 1</h4></div>
+                <div class="card-body">
+                  <h2 class="card-title" style="margin-left: 80px;">$ 100</h2>
+                  <p class="card-text">10 users included, 2 GB of storage, Email support, Help  center access</p>
+                  <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                </div>
+              </div>
+             </div>
+
+            <!--Третья колонка-->
+            <div class="col-4">
+              <div class="card text-bg-light mb-3" style="max-width: 18rem; margin-left: -90px;">
+                <div class="card-header"><h4 style="margin-left: 80px;">Товар 1</h4></div>
+                <div class="card-body">
+                  <h2 class="card-title" style="margin-left: 80px;">$ 100</h2>
+                  <p class="card-text">10 users included, 2 GB of storage, Email support, Help  center access</p>
+                  <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                </div>
+              </div>
+            </div>
+        </div> <!--Строка колонок-->
+
+
+
+
+      </div><!--Конец правой колонки-->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"> <!-- Скрипт для того чтобы открывалась кнопка (использование javascript)-->
+    </script>
+  </body>
+</html>
